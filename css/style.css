@@ -15,3 +15,21 @@ body{
 ul{
     list-style: none;
 }
+
+.left,
+.right{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+}
+
+.left{
+    background: #b3b4af;
+    left: 0%
+}
+
+.right{
+    background: #191921;
+    right: 0%;
+}
