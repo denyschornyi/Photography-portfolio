@@ -26,12 +26,14 @@ ul{
 
 .left{
     background: #b3b4af;
-    left: 0%
+    left: 0%;
+    width: 0%;
 }
 
 .right{
     background: #191921;
     right: 0%;
+    width: 100%;
 }
 
 .nav ul{
