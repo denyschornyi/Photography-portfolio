@@ -51,3 +51,39 @@ ul{
     font-weight: 600;
     padding: 0 30px;
 }
+
+.nav .logo{
+    flex: 1;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+
+.nav .menu{
+    flex: 1;
+    font-size: 18px;
+}
+
+.nav .collection{
+    flex: 1;
+}
+
+.nav .explore{
+    flex: 4;
+}
+
+.nav .search{
+    flex: 3;
+}
+
+.nav .profile{
+    flex: 0;
+}
+
+.nav .profile .img{
+    background-image: url('/img/nata.jpg');
+    background-position: 50%;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
