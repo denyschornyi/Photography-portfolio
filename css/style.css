@@ -33,3 +33,11 @@ ul{
     background: #191921;
     right: 0%;
 }
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
