@@ -41,3 +41,13 @@ ul{
     height: 80px;
     padding: 0 20px;
 }
+
+.nav ul li{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 0 30px;
+}
