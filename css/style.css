@@ -95,7 +95,7 @@ ul{
 }
 
 .img-wrapper .natalia{
-    background-image: url('/img/wallpaper.jpg');
+    background-image: url('/img/photo.jpeg');
     background-size: cover;
     height: 550px;
     width: 800px;
@@ -121,4 +121,47 @@ ul{
 
 .info i{
     font-size: 18px;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.text h1{
+    font-size: 90px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.name{
+    position: absolute;
+    top: 50%;
+    left: -290px;
+    transform: translateY(-50%);
+    font-size: 90px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+
+.bottomnav{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.bottomnav ul li{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-top: 20px;
 }
