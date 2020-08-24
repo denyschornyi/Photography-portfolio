@@ -97,7 +97,7 @@ ul{
 }
 
 .img-wrapper .natalia{
-    background-image: url('/img/photo.jpeg');
+    background-image: url('./img/photo.jpeg');
     background-size: cover;
     height: 550px;
     width: 0;
