@@ -10,108 +10,66 @@
     <title>Photographer portfolio</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="left"></div>
-        <div class="right"></div>
+   
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">NZ</a>
+            </div>
 
-        <nav class="nav">
-            <ul>
-                <li class="logo">unsplash</li>
-                <li class="menu"><i class="fa fa-bars"></i></li>
-                <li class="collection">collection</li>
-                <li class="explore">explore</li>
-                <li class="search">search</li>
-                <li class="profile">
-                    <div class="img"></div>
-                </li>
-            </ul>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close">
+                    <ion-icon name="close-outline" class="nav__close-icon" id="nav-close"></ion-icon>
+                </div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>
         </nav>
+    </header>
 
-        <div class="content">
-            <div class="img-wrapper">
-                <div class="natalia"></div>
+    <main class="l-main bd-grid">
+        <div class="home">
+            <h1 class="home__title">I´M A <br> FASHION <br> PHOTOGRAPHER</h1>
+
+            <div class="home__img">
+                <!-- Parar ver el efecto de hover effect abra la pagina web en localhost -->
             </div>
 
-            <div class="info">
-                <ul>
-                    <li>unsplash.com</li>
-                    <li>@nathaliyah</li>
-                    <li>znanyfotograf.pl</li>
-                    <li><i class="fa fa-share-alt"></i></li>
-                </ul>
+            <div class="home__social">
+                <a href="#" class="home__social-link">znanyfotograf</a>
+                <a href="#" class="home__social-link">instagram</a>
+                <a href="#" class="home__social-link">facebook</a>
             </div>
 
-            <div class="text">
-                <h1>natalia zięba</h1>
-                <p>Fashion Photographer</p>
-            </div>
+            <h2 class="home__subtitle">NATALIA<br>ZIĘBA</h2>
 
-            <div class="name">natalia zięba</div>
+            <a href="#" class="home__button">Contact <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a>
 
-            <div class="bottomnav">
-                <ul>
-                    <li>profile</li>
-                    <li>portfolio</li>
-                    <li>contact</li>
-                </ul>
-            </div>
         </div>
-    </div>
 
-    <script>
-        TweenMax.to('.left', 2, {
-            delay: .8,
-            width: '50%',
-            ease: Power2.easeInOut
-        });
+        <!-- MAIN -->
+        <script src="js/main.js"></script>
 
-        TweenMax.to('.right', 2, {
-            delay: .6,
-            width: '50%',
-            ease: Power3.easeInOut
-        });
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-        TweenMax.from('.nav', 2, {
-            delay: .8,
-            opacity: 0,
-            ease: Expo.easeInOut
-        });
+        <!-- THREE JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"
+         integrity="sha256-3mBEX8I0uMLF7+AUjJeTCelosuorzYpqwBMBPDTyQqY=" crossorigin="anonymous"></script>
 
-        TweenMax.from('.text h1', 2, {
-            delay: .6,
-            x: 1000,
-            ease: Circ.easeInOut
-        });
+        <!-- HOVER-EFFECT JS -->
+        <script src="assets/js/hover-effect.umd.js"></script>
+        
+         <!-- ICONOS -->
+        <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 
-        TweenMax.from('.text p', 2, {
-            delay: .7,
-            x: 1000,
-            ease: Circ.easeInOut
-        });
-
-        TweenMax.to('.natalia', 2, {
-            delay: 1.5,
-            width: '800px',
-            ease: Power2.easeInOut
-        });
-
-        TweenMax.staggerFrom('.bottomnav ul li', 2, {
-            delay: 1,
-            x: 1000,
-            ease: Power2.easeInOut
-        }, 0.08);
-
-        TweenMax.from('.info', 2, {
-            delay: 1.5,
-            y: 100,
-            ease: Circ.easeInOut
-        });
-
-        TweenMax.from('.name', 2, {
-            delay: 1.5,
-            x: -600,
-            ease: Circ.easeInOut
-        });
-    </script>
+        <script></script>
 </body>
 </html>
