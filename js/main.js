@@ -7,7 +7,7 @@ const closeMenu = document.getElementById('nav-close')
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ['ART', 'FAMILY', 'WEDDING', 'SPORT', 'INTERIOR', 'FASHION'];
+const textArray = ['FAMILY', 'WEDDING', 'SPORT', 'INTERIOR', 'ART',  'FASHION'];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000; // Delay between current and next text

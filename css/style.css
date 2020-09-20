@@ -16,7 +16,6 @@
   --h2-font-size: 2.25rem;
   --big-font-size: 3rem;
   --normal-font-size: 0.93rem;
-  --smaller-font-size: 0.75rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -24,7 +23,6 @@
     --h2-font-size: 3rem;
     --big-font-size: 6rem;
     --normal-font-size: 1rem;
-    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -213,7 +211,7 @@ img {
 .home__social-link {
   padding-bottom: 2rem;
   color: var(--text-color);
-  font-size: var(--smaller-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .home__subtitle {
