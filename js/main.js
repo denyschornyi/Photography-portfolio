@@ -15,3 +15,9 @@ closeMenu.addEventListener('click', ()=>{
     navMenu.classList.toggle('hidden')
     navMenu.classList.remove('show')
 })
+
+
+
+
+
+
