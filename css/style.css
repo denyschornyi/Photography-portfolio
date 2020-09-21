@@ -339,6 +339,6 @@ main.main{
     display: block;
     text-decoration: none;
     color: var(--text-color);
-    font-size: var(--h2-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: 1rem;
 }
