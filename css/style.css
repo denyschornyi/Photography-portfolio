@@ -318,3 +318,27 @@ span.typed-text {
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
   }
+
+
+
+/* CONTACT PAGE */
+
+main.main{
+    margin-top: 5rem;
+}
+
+.link-header{
+    display: block;
+    color: var(--text-color);
+    font-size: var(--big-font-size);
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+}
