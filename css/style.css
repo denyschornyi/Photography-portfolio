@@ -342,3 +342,48 @@ main.main{
     font-size: var(--h2-font-size);
     margin-bottom: 1rem;
 }
+
+
+
+
+/* PORTFOLIO PAGE */
+
+.portfolio-cards { 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    height: 70vh;
+    }
+.portfolio-cards > div {
+    font-size: 5vw;
+    padding: .5em;
+    background: gold;
+    text-align: center;
+  }
+
+.family{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sport{
+
+}
+
+.fashion{
+    
+}
+
+.wedding{
+    
+}
+
+.art{
+    
+}
+
+.interior{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}

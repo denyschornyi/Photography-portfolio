@@ -29,30 +29,19 @@
                 </div>
             </nav>
         </header>
+        <main class="l-main bd-grid main">
+                <div class="portfolio-block">
+                    <h1>Portfolio</h1>
 
-        <main class="l-main bd-grid">
-            <div class="home">
-                <h1 class="home__title">
-                    I´M A <br> 
-                    <span class="typed-text"></span><span class="cursor">&nbsp;</span>  
-                    <br> ARTIST
-                </h1>
-
-                <div class="home__img">
-                    
+                    <div class="portfolio-cards">
+                        <div class="sport">sport</div>
+                        <div class="family">family</div>
+                        <div class="fashion">fashion</div>
+                        <div class="wedding">wedding</div>
+                        <div class="art">art</div>
+                        <div class="interior">interior</div>
+                    </div>
                 </div>
-
-                <div class="home__social">
-                    <a href="https://znanyfotograf.com/natalia-zieba" target="_blanc" class="home__social-link">znanyfotograf</a>
-                    <a href="https://www.instagram.com/nathaliyah/" target="_blanc" class="home__social-link">instagram</a>
-                    <a href="https://www.facebook.com/natalia.zieba.fotografia" target="_blanc" class="home__social-link">facebook</a>
-                </div>
-
-                <h2 class="home__subtitle">NATALIA<br>ZIĘBA</h2>
-
-                <a href="tel:+48502663666" class="home__button">Contact <ion-icon name="arrow-forward-outline" class="home__button-icon"></ion-icon></a>
-
-            </div>
         </main>
 
         <!-- MAIN -->
@@ -87,9 +76,8 @@
             gsap.from('.home__img', {opacity: 0, duration: 1.3, delay:1.3, y: -50})
 
             /*SOCIAL, SUBTITLE Y BUTTON*/
-            gsap.from('.home__social', {opacity: 0, duration: 1, delay:1.5, y: 50})
-            gsap.from('.home__subtitle', {opacity: 0, duration: 1, delay: 1.8, y: 50})
-            gsap.from('.home__button', {opacity: 0, duration: 1, delay:2, y: 50})
+            gsap.from('.link-header', {opacity: 0, duration: 1, delay:1.5, y: 50})
+            gsap.from('.link', {opacity: 0, duration: 1, delay: 1.6, y: 50})
         </script>
     </body>
 </html>
