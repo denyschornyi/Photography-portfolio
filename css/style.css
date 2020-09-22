@@ -22,7 +22,7 @@
   :root {
     --h2-font-size: 3rem;
     --big-font-size: 6rem;
-    --normal-font-size: 1rem;
+    --normal-font-size: 1.2rem;
   }
 }
 
@@ -347,6 +347,19 @@ main.main{
 
 
 /* PORTFOLIO PAGE */
+.portfolio-header{
+    color: var(--text-color);
+    font-size: var(--h2-font-size);
+    margin-bottom: 2rem;
+}
+
+.portfolio-subtitle{
+    text-align: center;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    50%{transform: translateY(-15px);}
+}
 
 .portfolio-cards { 
     display: grid;
@@ -358,32 +371,43 @@ main.main{
 .portfolio-cards > div {
     font-size: 5vw;
     padding: .5em;
-    background: gold;
     text-align: center;
+    cursor: pointer;
+    color: var(--white-color);
+    border-radius: 8px;
   }
 
 .family{
     grid-column-start: 2;
     grid-column-end: 4;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/family.jpeg');
+    background-size: cover;
 }
 
 .sport{
-
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/sport.jpg');
+    background-size: cover;
 }
 
 .fashion{
-    
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/img/fashion.jpeg');
+    background-size: cover;
 }
 
 .wedding{
-    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/wedding.jpeg');
+    background-size: cover;
 }
 
 .art{
-    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/art.jpeg');
+    background-size: cover;
 }
 
 .interior{
     grid-column-start: 3;
     grid-column-end: 5;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/interior.jpeg');
+    background-size: cover;
 }
