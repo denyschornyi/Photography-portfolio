@@ -366,48 +366,50 @@ main.main{
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2vw;
-    height: 70vh;
+    height: 65vh;
     }
 .portfolio-cards > div {
-    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: .5em;
-    text-align: center;
     cursor: pointer;
-    color: var(--white-color);
     border-radius: 8px;
+    color: var(--white-color);
+    font-size: 5vw;
   }
 
 .family{
     grid-column-start: 2;
     grid-column-end: 4;
 
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/family.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/family.jpeg')  no-repeat;
     background-size: cover;
 }
 
 .sport{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/sport.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/sport.jpg') no-repeat;
     background-size: cover;
 }
 
 .fashion{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/img/fashion.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/img/fashion.jpeg') no-repeat;
     background-size: cover;
 }
 
 .wedding{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/wedding.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/wedding.jpeg') no-repeat;
     background-size: cover;
 }
 
 .art{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/art.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/art.jpeg') no-repeat;
     background-size: cover;
 }
 
 .interior{
     grid-column-start: 3;
     grid-column-end: 5;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/interior.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/interior.jpeg') no-repeat;
     background-size: cover;
 }

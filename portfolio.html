@@ -62,23 +62,15 @@
         <script  type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
     
         <script>
-            new hoverEffect({
-                parent: document.querySelector('.home__img'),
-                intensity: 0.3,
-                image1: 'img/nata-main.jpg',
-                image2: 'img/nata.jpg',
-                displacementImage: 'img/diss.png',
-                imagesRatio: 450 / 300
-            })
-
             /* NAV, TITLE Y IMG y*/
             gsap.from('.nav', {opacity: 0, duration: 1, delay:1, y: -30})
             gsap.from('.home__title', {opacity: 0, duration: 1.2, delay:1.2, y: -30})
             gsap.from('.home__img', {opacity: 0, duration: 1.3, delay:1.3, y: -50})
 
             /*SOCIAL, SUBTITLE Y BUTTON*/
-            gsap.from('.link-header', {opacity: 0, duration: 1, delay:1.5, y: 50})
-            gsap.from('.link', {opacity: 0, duration: 1, delay: 1.6, y: 50})
+            gsap.from('.portfolio-header', {opacity: 0, duration: 1, delay:1.4, y: 50})
+            gsap.from('.portfolio-subtitle', {opacity: 0, duration: 1, delay:1.9, y: 50})
+            gsap.from('.portfolio-cards', {opacity: 0, duration: 1, delay: 1.7, y: 50})
         </script>
     </body>
 </html>
