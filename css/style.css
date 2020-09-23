@@ -347,11 +347,42 @@ main.main{
 
 
 /* PORTFOLIO PAGE */
-.portfolio-header{
-    color: var(--text-color);
-    font-size: var(--h2-font-size);
-    margin-bottom: 2rem;
+
+
+@media (max-width: 768px) {
+    .portfolio-cards { 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+        grid-gap: 2vw;
+    }
+    .sport{
+        order: 1;
+        grid-column-start: 1;
+    }
+
+    .family{
+        order: 3;
+        grid-column-start: 1;
+    }
+    
+    .fashion{
+        order: 2;
+    }
+    
+    .wedding{
+        order: 4;
+    }
+    
+    .art{
+        order: 5;
+    }
+    
+    .interior{
+        order: 6;
+    }
 }
+
 
 .portfolio-subtitle{
     text-align: center;
@@ -367,7 +398,7 @@ main.main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2vw;
     height: 65vh;
-    }
+}
 .portfolio-cards > div {
     display: flex;
     justify-content: center;
@@ -380,9 +411,7 @@ main.main{
   }
 
 .family{
-    grid-column-start: 2;
-    grid-column-end: 4;
-
+    grid-column-start: span 2;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/family.jpeg')  no-repeat;
     background-size: cover;
 }
@@ -408,8 +437,7 @@ main.main{
 }
 
 .interior{
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: span 2;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/interior.jpeg') no-repeat;
     background-size: cover;
 }
