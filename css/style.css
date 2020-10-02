@@ -412,32 +412,32 @@ main.main{
 
 .family{
     grid-column-start: span 2;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/family.jpeg')  no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/family.jpeg')  no-repeat;
     background-size: cover;
 }
 
 .sport{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/sport.jpg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/sport.jpg') no-repeat;
     background-size: cover;
 }
 
 .fashion{
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('/img/fashion.jpeg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../img/fashion.jpeg') no-repeat;
     background-size: cover;
 }
 
 .wedding{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/wedding.jpeg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/wedding.jpeg') no-repeat;
     background-size: cover;
 }
 
 .art{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/art.jpeg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/art.jpeg') no-repeat;
     background-size: cover;
 }
 
 .interior{
     grid-column-start: span 2;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/interior.jpeg') no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/interior.jpeg') no-repeat;
     background-size: cover;
 }
